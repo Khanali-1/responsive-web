@@ -29,7 +29,11 @@
             <div class="ld"> <a href="#">Italian</a></div>
             <div class="ld"> <a href="#">germen</a></div>
             </div>
-        <div class="content1"></div>
+        <div class="content">
+            <h2>Welcome to the Best <span>Review hub</span> 🎬</h2>
+            <h3> Your Ultimate Destination for Honest and Engaging Reviews!</h3>
+            <p>At Review Hub, we bring you detailed and unbiased reviews of your favorite movies, web series, and animated shows. Whether you're searching for the best thrillers, top-rated comedies, or hidden gems from around the world, our platform is your go-to guide. Dive into expertly crafted content that not only helps you choose what to watch but also keeps you updated with trending recommendations, viewer ratings, and genre-based lists. From emotional dramas to action-packed adventures, we cover it all – making your entertainment choices easier, smarter, and more enjoyable. Explore. Discover. Review – only on Review Hub.</p>
+        </div>
     </div>
     <footer>
         <p>explore more &<span>Thank</span>you</p>
@@ -37,7 +41,15 @@
         <a href="#">Login</a>
         </div>
     </footer>
-  
+  <script>
+  const menuIcon = document.querySelector('.fa-bars');
+  const pages = document.querySelector('.pages');
+
+  menuIcon.addEventListener('click', () => {
+    pages.classList.toggle('active');
+  });
+</script>
+
 
 </body>
 </html>
