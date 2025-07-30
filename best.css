@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.39);
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 0vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h2 {
+    color: rgb(127, 208, 255);
+}
+.pages {
+    display: flex;
+    gap: 20px;
+}
+.pages a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.pages a:hover {
+    color: rgb(127, 208, 255);
+
+}
+.content {
+    width: 100%;
+    height: calc(100% - 80px);
+}
+.box1 {
+    width: 100%;
+    height: 100%;
+    padding: 2vw;
+}
+.box1 img {
+    width: 100%;
+    height: 60%;
+}
+.box1 img:hover {
+    border: 2px solid white;
+}
+.box1 h2 {
+    margin-top: 10px;
+}
+.box1 p {
+    margin-top: 10px;
+    font-size: 1.4vw;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+
+}
+footer p {
+    font-size: 18px;
+    color: white;
+
+}
+footer span {
+    color:  rgb(127, 208, 255);
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+footer a:hover {
+    color:  rgb(127, 208, 255);
+}
+
+.pages.active {
+  display: block;
+}
+
+
+@media (max-width:800px) {
+    .nav {
+        padding: 0 4vw;
+        width: 100%;
+        height: 60px;
+    }.content {
+        width: 100%;
+        height: calc(100% - 60px);
+
+    }
+    .box1 {
+        width: 100%;
+        height: 100%;
+        padding: 5vw;
+    }
+    .box1 img {
+        width: 100%;
+        height: 40%;
+    }
+    .box1 p {
+        font-size: 3vw;
+        line-height: 3.2vh;
+    }
+   
+
+     footer {
+        width: 100%;
+        height: 60px;
+    }
+    footer p {
+        font-size: 3.4vw;
+    }
+    .login a {
+        font-size: 3.4vw;
+    }
+}
