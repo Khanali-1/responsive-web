@@ -104,10 +104,10 @@ footer a:hover {
         padding: 0 4vw;
         width: 100%;
         height: 60px;
-    }.content {
+    }
+    .content {
         width: 100%;
         height: calc(100% - 60px);
-
     }
     .box1 {
         width: 100%;
@@ -119,8 +119,8 @@ footer a:hover {
         height: 40%;
     }
     .box1 p {
-        font-size: 3.8vw;
-        line-height: 4.2vh;
+        font-size: 3.2vw;
+        line-height: 3.3vh;
       
       
     }
